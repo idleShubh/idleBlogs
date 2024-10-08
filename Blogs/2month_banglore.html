@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>idleBlogs: </title>
+    <link rel="stylesheet" href="blog_style.css">
+</head>
+<body>
+  <div class="progress-container">
+    <div class="progress-bar"></div>
+  </div>
+
+    <header>
+        <a href="/index.html">
+            <h1>idleBlogs</h1>
+            <p>by Shubh Srivastava</p>
+        </a>
+        <div class="hero">
+            <h1>2 months in Bengaluru</h1>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="article">
+            <article>
+                <h2>So its been 2 months since I moved to Bengaluru…</h2>
+                <label for="date">Date: Oct 1, 2024</label>
+                <br> <hr> <br>
+                <p>What a ride it’s been! Moving from Lucknow to this fast-paced city for my studies has been nothing short of an emotional roller-coaster. New traditions, a different language, and so many new faces — it’s been a major shift from the comfort of home. Leaving my parents and friends behind wasn’t easy, and there were plenty of moments when I found myself thinking about the good old days with a sense of nostalgia.
+                    <br><br>
+                    It took me a solid month to adjust ( survive ), bcz
+                    <br><br>
+                    1. Almost got scammed twice (rookie mistake) <br>
+                    2. Cabs are ridiculously expensive <br>
+                    3. Hard water struggles (RO water hair wash, anyone?) <br>
+                    4. Food’s pricey and, well, not great <br>
+                    5. The public transport system is a maze <br>
+                    6. Traffic? Oh, it’s a feature, not a bug.
+                    <br><br>
+                    But now that I’m comfortable, I’ve made some incredible friends, already created a ton of memories, and yes, survived my mid-terms!
+                    Oh, and did I mention I’ve had the privilege to meet some of the most influential people in the country? Including:
+                    <br><br>
+                    - Amod Malviya (co-founder of udaan.com) <br>
+                    - Akash Saxena (CTO of JioCinema) <br>
+                    - Varun Mohan (CEO of Codeium) <br>
+                    - Ankit Goyal ( Vice President Paytm ) <br>
+                    - Pulkit Jain ( Co-Founder of Vedantu ) and many more….
+                    <br><br>
+                    This is just the beginning. I’m embracing the change, settling into Bangalore life, and pushing myself to make the most out of my journey with Scaler School of Technology.</p>
+               </article>
+        </div>
+    </main>
+
+    <!-- JavaScript for Scroll Progress -->
+  <script>
+    window.onscroll = function() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.querySelector('.progress-bar').style.width = scrolled + "%";
+    };
+  </script>
+
+<footer>
+    <div class="social_links">
+    <a href="https://www.linkedin.com/in/srivastavshubh/"><img src="/img/LinkedIn icon.png" alt=""></a>
+    <a href="https://github.com/idleShubh"><img src="/img/Git hub icon.png" alt=""></a>
+    <a href="https://x.com/idleshubh"><img src="/img/Social media icon.png" alt=""></a>
+    <a href="https://www.youtube.com/@idleshubh"><img src="/img/Social media icon (1).png" alt=""></a>
+  </div>
+  <div>
+    made with ❤️ by idleShubh
+  </div>
+  </footer>
+
+</body>
+</html>

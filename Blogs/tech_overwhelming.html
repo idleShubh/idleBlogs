@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>idleBlogs: </title>
+    <link rel="stylesheet" href="blog_style.css">
+</head>
+<body>
+  <div class="progress-container">
+    <div class="progress-bar"></div>
+  </div>
+
+    <header>
+        <a href="/index.html">
+            <h1>idleBlogs</h1>
+            <p>by Shubh Srivastava</p>
+        </a>
+        <div class="hero">
+            <h1>Learning Technology can be Overwhelming 😰</h1>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="article">
+            <article>
+                <h2>How learning tech can be overwhelming?</h2>
+                <label for="date">Date: Apr 2, 2024</label>
+                <br> <hr> <br>
+                <p>Starting college and diving into the world of technology can be exciting, but it often feels overwhelming. You might imagine smoothly mastering data science, AI, machine learning, and web development, but the reality can be different.
+                    <br><br>
+                    Tech learning isn’t always as straightforward as we envision. What seems easy in theory becomes complex in practice, causing frustration and self-doubt. The tech field is vast and interconnected. Learning one thing often requires understanding others. Plus, technology evolves fast, adding another layer of complexity.
+                    <br><br>
+                    Keys to Success:
+                    <br><br>
+                    1. Patience and Persistence: Learning tech is a marathon, not a sprint. Embrace setbacks as part of the journey.
+                    <br>
+                    2. Community Support: Connect with peers and mentors. You’re not alone in facing challenges.
+                    <br>
+                    3. Effective Learning Strategies: Break down complex topics, set realistic goals, and keep a growth mindset. Hands-on projects and coding challenges enhance practical skills.
+                    <br><br>
+                    Tech learning may seem daunting, but every expert started as a beginner. Overcoming initial challenges is part of the journey. By staying resilient, maintaining a positive mindset, and using effective learning strategies, you can navigate the tech learning maze and unlock endless possibilities.</p>
+               </article>
+        </div>
+    </main>
+
+    <!-- JavaScript for Scroll Progress -->
+  <script>
+    window.onscroll = function() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.querySelector('.progress-bar').style.width = scrolled + "%";
+    };
+  </script>
+
+<footer>
+    <div class="social_links">
+    <a href="https://www.linkedin.com/in/srivastavshubh/"><img src="/img/LinkedIn icon.png" alt=""></a>
+    <a href="https://github.com/idleShubh"><img src="/img/Git hub icon.png" alt=""></a>
+    <a href="https://x.com/idleshubh"><img src="/img/Social media icon.png" alt=""></a>
+    <a href="https://www.youtube.com/@idleshubh"><img src="/img/Social media icon (1).png" alt=""></a>
+  </div>
+  <div>
+    made with ❤️ by idleShubh
+  </div>
+  </footer>
+
+</body>
+</html>

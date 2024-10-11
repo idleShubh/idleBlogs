@@ -7,6 +7,19 @@
     --clr-shadow: 0 4px 10px rgba(0, 0, 0, 0.415);
 }
 
+@media (max-width: 880px){
+    body{
+        margin: 20px 30px 0px 30px;
+        background-color: var(--clr-main);
+        color: var(--clr-text);
+        line-height: 1.4rem;
+    }
+
+    .article{
+        width: 80%;
+    }
+}
+
 *{
     margin: 0%;
     padding: 0%;
